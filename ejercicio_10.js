@@ -17,5 +17,13 @@ const tasaMortalidad = prompt("introduce tasa de mortalidad");
  console.log (tasaNatalidad + "tasa de natalida ")
 console.log(tasaMortalidad + "tasa de mortalidad")
 
+for ( i = 1; i <= 10; i++) {
+  natalidad = tasa_natalidad * poblacion_actual;
+  mortalidad = tasa_mortalidad * poblacion_actual;
+  poblacion_actual += (natalidad - mortalidad);    
+  document.getElementById ("tabla").rows [i].cells [1].innerText = Math.round(natalidad);
+  document.getElementById ("tabla").rows [i].cells [2].innerText = Math.round(mortalidad);
+  document.getElementById ("tabla").rows [i].cells [3].innerText = Math.round(poblacion_actual);
+}
 
 

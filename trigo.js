@@ -10,10 +10,10 @@ estimación del peso de un grano de trigo y “pese” la cantidad resultante.
 var trigo = 1;
 var total = 0;
 function peso(){
-    for (i=1; i >= 64; i++){
+    for (i=1; i <= 64; i++){
         total += trigo;
         trigo *= 2;
     }
-
+console.log(total)
 }
 peso(1);
