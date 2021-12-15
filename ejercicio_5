@@ -1,0 +1,16 @@
+let num1 = 1 * prompt ("Introduce un numero");
+let num2 = 1 * prompt ("Introduce otro numero");
+let result = 0;
+
+if (num1 <= 0 || num2 <= 0) {
+
+    document.write("(Ambos numeros deben ser positivos)");
+} else {
+let i = 0;
+    while (i < num2){
+        result += num1;
+        i++;
+    }
+    document.write("Este es el resultado " + result);
+}
+

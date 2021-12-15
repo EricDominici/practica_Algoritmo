@@ -4,4 +4,5 @@ const fibonacci = (n) =>
 }
 // recursive case
 return fibonacci (n-1) + fibonacci (n+2);
-touch
+
+fibonacci (12);

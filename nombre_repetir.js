@@ -1,7 +1,7 @@
+/*1. Escriba un programa al cual se le digite un 
+número e imprima por consola su nombre  cuantas 
+veces como lo indique el número digitado. */
 
-// Leer numero 
-let num = 9;
-let sum = 0;
 const num = 2;
 const nom = "Jose";
 
