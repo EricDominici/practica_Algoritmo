@@ -1,0 +1,24 @@
+/*10. Haga una función eqcuad(a, b, c) la cual retorne la 
+solución positiva de una ecuación cuadrática cuyos parámetros
+ son a, b y c respectivamente.  */
+
+let a = 1 * prompt ("Introduce (a).");
+let b = 1 * prompt ("Introduce (b).");
+let c = 1 * prompt ("Introduce (c).");
+
+var raiz = (b ** 2) - 4 * (a * c);
+
+if (raiz < 0){
+    alert("El resultado de la raiz da un numero negativo, ingresa otros valores.");
+} else if (raiz > 0){
+    alert(eqcuad (a , b, raiz));
+} else {
+    alert("Alguno de los valores que introduciste no es un numero.");
+}
+
+function eqcuad(a, b, raiz){
+    console.log (raiz)
+    let y = (b) + (Math.sqrt(raiz)) / (2 * a);
+    return y
+}
+
