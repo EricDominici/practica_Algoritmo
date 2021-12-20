@@ -4,6 +4,7 @@ Ejercicios de Desarrollo de Aplicaciones:
 JavaScript - Conceptos Básicos de Algoritmos y Estructuras de Datos
 (20 pts)
 Prof. Lizandro Ramírez 
+> Eric Dominici #3
 1. Escriba un programa al cual se le digite un número e imprima por consola su nombre  cuantas veces como lo indique el número digitado. 
 2. Haga un programa al cual se le digite un número entero y despliegue por pantalla la suma de  los números comprendidos entre 0 y el número digitado. 
 3. Haga un programa al cual se le digite una longitud expresada en pulgadas e imprima por  consola la misma longitud en yardas, pies y pulgadas. Por ejemplo, una longitud de 65  pulgadas sería expresada como: 1 yarda, 2 pies y 5 pulgadas. 
