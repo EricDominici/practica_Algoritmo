@@ -4,14 +4,14 @@ numeremos los discos desde 1, el disco más pequeño, hasta n, el disco más gra
 n discos están en la varilla A, en orden de tamaño decreciente de la parte inferior a la parte superior, de 
 modo que el disco n está en la parte inferior y el disco 1 está en la parte superior */
 
-function hanoi(n, origen, auxiliar, destino) {
+function han(n, org, aux, des) {
     if (n == 1) {
-        console.log(`Mover disco 1 de ${origen} a ${destino}`);
+        console.log(`Mover disco 1 de ${org} a ${des}`);
     } else {
-        hanoi(n - 1, origen, destino, auxiliar);
-        console.log(`Mover disco ${n} de ${origen} a ${destino}`);
-        hanoi(n - 1, auxiliar, origen, destino);
+        han(n - 1, org, des, aux);
+        console.log(`Mover disco ${n} de ${org} a ${des}`);
+        han(n - 1, aux, org, des);
     }
 }
 
-console.log(hanoi(3, 'A', 'B', 'C'));
+console.log(han(3, 'A', 'B', 'C'));
