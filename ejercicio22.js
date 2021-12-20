@@ -7,9 +7,9 @@ Removiendo los duplicados tendríamos el arreglo [2, 3, 6, 9].
  */
 
 function eliminarDuplicados(arreglo) {
-    var i = 0;
-    var j = 0;
-    var arregloAux = [];
+   let i = 0;
+   let j = 0;
+   let arregloAux = [];
     while (i < arreglo.length) {
         if (arreglo[i] != arreglo[i + 1]) {
             arregloAux[j] = arreglo[i];
